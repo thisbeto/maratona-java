@@ -1,4 +1,4 @@
-package com.thisbeto.maratonajava.introducao;
+package com.thisbeto.maratonajava.introducao.AulaIniciais;
 
 /**
  * Isso é um <b></b>JavaDoc</b>

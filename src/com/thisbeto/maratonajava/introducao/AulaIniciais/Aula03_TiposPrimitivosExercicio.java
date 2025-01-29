@@ -1,4 +1,4 @@
-package com.thisbeto.maratonajava.introducao;
+package com.thisbeto.maratonajava.introducao.AulaIniciais;
 
 public class Aula03_TiposPrimitivosExercicio {
     public static void main(String[] args) {
