@@ -1,6 +1,6 @@
 package com.thisbeto.maratonajava.objetos.Aintroducaoclasses.testt;
 
-import com.thisbeto.maratonajava.javacore.Aintroducaoclasses.dominio.Professor;
+import com.thisbeto.maratonajava.objetos.Aintroducaoclasses.dominio.Professor;
 
 public class ProfessorTeste01 {
     public static void main(String[] args) {

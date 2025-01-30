@@ -1,4 +1,4 @@
-package com.thisbeto.maratonajava.javacore.Aintroducaoclasses.dominio;
+package com.thisbeto.maratonajava.objetos.Aintroducaoclasses.dominio;
 
 public class Professor {
     public String nome;

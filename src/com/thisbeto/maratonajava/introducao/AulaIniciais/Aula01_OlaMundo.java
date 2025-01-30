@@ -1,5 +1,7 @@
 package com.thisbeto.maratonajava.introducao.AulaIniciais;
 
+import com.thisbeto.maratonajava.objetos.Aintroducaoclasses.dominio.Carro;
+
 /**
  * Isso é um <b></b>JavaDoc</b>
  */
@@ -10,6 +12,8 @@ package com.thisbeto.maratonajava.introducao.AulaIniciais;
     */
 public class Aula01_OlaMundo {
     public static void main(String[] args) {
-
+        Carro carrob = new Carro();
+        carrob.nome = "monza";
+        System.out.println(carrob.toString());
     }
 }

@@ -1,4 +1,4 @@
-package com.thisbeto.maratonajava.introducao;
+package com.thisbeto.maratonajava.introducao.Aula07;
 
 public class Aula07_Arrays03 {
     public static void main(String[] args) {

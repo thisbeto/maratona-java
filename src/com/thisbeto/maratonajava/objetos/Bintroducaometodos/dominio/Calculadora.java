@@ -2,8 +2,9 @@ package com.thisbeto.maratonajava.objetos.Bintroducaometodos.dominio;
 
 public class Calculadora {
 
-    public void somaDoisNumeros() {
-        System.out.println(10 + 10);
+    public static int somaDoisNumeros(int numero1, int numero2) {
+        System.out.println("Iniciando função de soma: ");
+        return numero1 + numero2;
     }
 
     public void subtraiDoisNumeros() {
@@ -44,4 +45,30 @@ public class Calculadora {
         System.out.println("Num1 " +num1);
         System.out.println("Num2 " +num2);
     }
+
+    // Desafio: Criar uma calculadora que valida se um numero é primo ou não
+    // Retornar true se for, false se nao for
+    // ele mesmo e 1
+    // nump1 >= 1
+
+    // Desafio2: Criar uma calculadora que recebe uma lista/array,
+    // Retorna a lista x2
+
+    public boolean validaPrimo(int num1p){
+        if (num1p < 1) {
+            return false;
+        }
+        for (int i = 2; i < num1p; i++) {
+            if (num1p % i == 0) {
+                System.out.println("Calculando a divisão do: " +num1p + " por " +i);
+                return false;
+            }
+        }
+        return true;
+    }
+
+
+
+
+
 }
