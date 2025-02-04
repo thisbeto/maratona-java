@@ -5,7 +5,12 @@ import com.thisbeto.maratonajava.objetos.Gassociacao.dominio.Professor;
 
 public class EscolaTest01 {
     public static void main(String[] args) {
-        Professor professor = new Professor("Cesar");
-        Escola escola = new Escola("ILV");
+        Professor professor1 = new Professor("Cesar");
+        Professor professor2 = new Professor("Mario");
+        Professor[] professores = {professor1, professor2};
+        Escola escola = new Escola("ILV", professores);
+
+        escola.imprime();
+
     }
 }
