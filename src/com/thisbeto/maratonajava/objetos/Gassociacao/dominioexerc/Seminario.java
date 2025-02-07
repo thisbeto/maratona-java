@@ -1,9 +1,20 @@
 package com.thisbeto.maratonajava.objetos.Gassociacao.dominioexerc;
 
+import java.util.Arrays;
+
 public class Seminario {
     private String titulo;
     private Aluno[] alunos;
     private Local local;
+
+    @Override
+    public String toString() {
+        return "Seminario{" +
+                "titulo='" + titulo + '\'' +
+                ", alunos=" + Arrays.toString(alunos) +
+                ", local=" + local +
+                '}';
+    }
 
     public Seminario(String titulo) {
         this.titulo = titulo;
