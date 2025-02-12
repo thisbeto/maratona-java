@@ -9,6 +9,6 @@ public class CompradorTest01 {
 
         System.out.println(Carro.VELOCIDADE_LIMITE);
         System.out.println(carro.COMPRADOR);
-        carro.COMPRADOR.setNome("Kuririn"); 
+        carro.COMPRADOR.setNome("Kuririn");
     }
 }
