@@ -17,7 +17,7 @@ public class ClienteTest01 {
         TipoCliente tipoCliente = TipoCliente.valueOf("PESSOA_FISICA");
         // Aqui se deixar diferente ele vai dar errado porque o valueOf retorna no nome
         System.out.println(tipoCliente);
-        TipoCliente tipoCliente2 = TipoCliente.tipoClientePorNomeRelatorio("Pessoa Física");
+        TipoCliente tipoCliente2 = TipoCliente.tipoClientePorNomeRelatorio("Pessoa   Física");
         // Estamos devolvendo "Pessoa física" que é um atributo e ele vai nos devolver o nome do objeto, que é PESSOA_FISICA
         System.out.println(tipoCliente2);
 

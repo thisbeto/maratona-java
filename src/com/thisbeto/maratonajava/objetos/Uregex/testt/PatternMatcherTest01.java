@@ -6,7 +6,7 @@ import java.util.regex.Pattern;
 public class PatternMatcherTest01 {
     public static void main(String[] args) {
         String regex = "aba";
-        String texto2 = "abaaba";
+        String texto2 = "abaghhaba";
         //String texto2 = "abababa";
         Pattern pattern = Pattern.compile(regex); // Vai compilar e procurar
         Matcher matcher = pattern.matcher(texto2); // Vai retornar se deu match
