@@ -3,7 +3,6 @@ package com.thisbeto.maratonajava.objetos.Ycolections.testt;
 import com.thisbeto.maratonajava.objetos.Ycolections.dominio.Smartphone;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 public class SmarphoneListTest01 {
