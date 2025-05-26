@@ -1,4 +1,4 @@
-package com.thisbeto.maratonajava.ZZClambdas.testt;
+package com.thisbeto.maratonajava.objetos.ZZClambdas.testt;
 
 import java.util.List;
 import java.util.function.Consumer;
