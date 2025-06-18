@@ -1,5 +1,5 @@
-Linha 1
-Linha 2
-
-Linha 3
-Linha 4
+Java é a melhor linguagem
+Eu gosto muito de Java
+Python é ...
+Php é ...
+Stream é legal
